@@ -7,3 +7,11 @@
 //
 
 import Foundation
+struct Video {
+    
+    var videoID = ""
+    var videoTitle = ""
+    var videoDescription = ""
+    var videThumbmail = ""
+    var videoPublishedDate = ""
+}

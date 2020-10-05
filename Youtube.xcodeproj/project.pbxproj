@@ -13,6 +13,10 @@
 		2045372D252A395400FDE52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2045372B252A395400FDE52A /* Main.storyboard */; };
 		2045372F252A395800FDE52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2045372E252A395800FDE52A /* Assets.xcassets */; };
 		20453732252A395800FDE52A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20453730252A395800FDE52A /* LaunchScreen.storyboard */; };
+		2047BBCB252B582300FA747F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047BBCA252B582300FA747F /* Constants.swift */; };
+		2047BBCD252B5DDF00FA747F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047BBCC252B5DDF00FA747F /* Video.swift */; };
+		2047BBCF252B833100FA747F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047BBCE252B833100FA747F /* Model.swift */; };
+		2047BBD1252B8E7800FA747F /* ConstantsTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047BBD0252B8E7800FA747F /* ConstantsTemp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2045372E252A395800FDE52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20453731252A395800FDE52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20453733252A395800FDE52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2047BBCA252B582300FA747F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2047BBCC252B5DDF00FA747F /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		2047BBCE252B833100FA747F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2047BBD0252B8E7800FA747F /* ConstantsTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,49 @@
 			children = (
 				20453725252A395400FDE52A /* AppDelegate.swift */,
 				20453727252A395400FDE52A /* SceneDelegate.swift */,
-				20453729252A395400FDE52A /* ViewController.swift */,
-				2045372B252A395400FDE52A /* Main.storyboard */,
+				2045373A252A5F0F00FDE52A /* Model */,
+				20453739252A5F0400FDE52A /* Views */,
+				2045373B252A5F3300FDE52A /* Controllers */,
+				2045373C252A5F6300FDE52A /* Helpers */,
 				2045372E252A395800FDE52A /* Assets.xcassets */,
 				20453730252A395800FDE52A /* LaunchScreen.storyboard */,
 				20453733252A395800FDE52A /* Info.plist */,
 			);
 			path = Youtube;
+			sourceTree = "<group>";
+		};
+		20453739252A5F0400FDE52A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2045372B252A395400FDE52A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2045373A252A5F0F00FDE52A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2047BBCC252B5DDF00FA747F /* Video.swift */,
+				2047BBCE252B833100FA747F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2045373B252A5F3300FDE52A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20453729252A395400FDE52A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2045373C252A5F6300FDE52A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2047BBCA252B582300FA747F /* Constants.swift */,
+				2047BBD0252B8E7800FA747F /* ConstantsTemp.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +185,10 @@
 				2045372A252A395400FDE52A /* ViewController.swift in Sources */,
 				20453726252A395400FDE52A /* AppDelegate.swift in Sources */,
 				20453728252A395400FDE52A /* SceneDelegate.swift in Sources */,
+				2047BBCF252B833100FA747F /* Model.swift in Sources */,
+				2047BBD1252B8E7800FA747F /* ConstantsTemp.swift in Sources */,
+				2047BBCB252B582300FA747F /* Constants.swift in Sources */,
+				2047BBCD252B5DDF00FA747F /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
