@@ -27,7 +27,15 @@ class Model {
                 print(error!.localizedDescription)
                 return
             }
-            else {
+                
+            do {
+                // Parsing data into Video Object
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                let response = try decoder.decode(Response.self, from: data!)
+//                dump(response) // If we wanna check our response output in the console
+            }
+            catch {
                 
             }
         }
